@@ -1,0 +1,126 @@
+body{
+  height: 100vh;
+  background: #1a1a1a ;
+  position: static;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+h1{
+  text-align: center;
+   margin-bottom: 3%;
+}
+
+.registeration{
+  color: #8E18EC; 
+}
+
+ div  .registerbtn{
+  color: #8E18EC;
+  margin: 0 auto;
+  display: block;
+  width: 5%;
+  height: 28px;
+   border: 2px solid #8E18EC;
+    border-radius: 5px ;  
+    transition: .5s;
+    margin-top: 2%;
+}
+div  .registerbtn:hover{
+  transform: scale(1.1);
+}
+
+div .Error{
+  color:  #8E18EC;
+  background: white;
+  width: 15%;
+  text-align: center;
+  height: 75px ;
+  border-radius: 5px;
+  border: 2px solid #8E18EC;
+  margin-left: 42.5%;
+
+  /*opacity: 1;*/  
+
+}
+
+p{
+  text-align: center;
+} 
+.reg{
+  text-align: center;
+}
+form{
+  margin-top: 5%;
+    opacity: 0;
+ transition: 1s;
+ animation: show 2s ;
+ animation-fill-mode: forwards;
+ animation-delay: .5s;
+
+}
+.container{
+  margin-bottom: 3%;
+}
+input{
+  width: 25%;
+  height: 30px;
+  border: 2px solid #8E18EC;
+  border-radius: 5px ;
+  transition: .5s;
+}
+input:hover{
+  transform: scale(1.1);
+}
+div .containersignin{
+margin-bottom: 5%;
+}
+
+.Back{
+  width: 2%;
+  height: 2%;
+  border-radius: 5px;
+  background: none;
+  border: none;
+  transition: .5s;
+  opacity: 0;
+ transition: 1s;
+ animation: show 2s ;
+ animation-fill-mode: forwards;
+ animation-delay: .5s;
+}
+.Back:hover{
+  transform: scale(1.1);
+}
+.IMG{
+  width: 150%;
+  height: 300%;
+  margin-left: 100%;
+  margin-top: 100%;
+}
+
+ @keyframes show{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1  ;
+    }
+  }
+  .THT {
+    color:#8E18EC ;
+  
+  }
+a{
+  color: #8E18EC;
+}
+.Err{
+  width: 15%; 
+  margin-top: 5%;
+}
